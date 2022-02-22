@@ -1,12 +1,17 @@
 #include <stdio.h>
 
-int main(void) {
-    // Fazer um comentario de uma linha
+int main() {
+    // Comment
+    
     /*
-     Fazer um comentario
-     de varias linhas
+    Multi
+    line
+    comment
     */
-    printf("Ola \nMundo.\n");
-
+    
+    printf("Hello world!\n");
     return 0;
 }
+
+// gcc aula03.c -o aula03
+// ./aula03

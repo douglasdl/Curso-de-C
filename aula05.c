@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int minhaIdade;
-    minhaIdade = 23;
+    minhaIdade = 34;
+    int maeIdade = 55;
+    int paiIdade = 58;
 
-    int maeIdade;
-    maeIdade = 48;
-
-    int paiIdade = 49;
-
-    printf("Minha idade e = %i.\nPai idade = %i\nMae idade = %i\n", minhaIdade, paiIdade, maeIdade);
-
+    printf("Minha idade: %i\nPai idade: %i\nMae Idade: %i\n", minhaIdade, paiIdade, maeIdade);
+    
     return 0;
 }
+
+// gcc aula05.c -o aula05
+// ./aula05
